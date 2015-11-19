@@ -1,2 +1,6 @@
-h1 StaticPages#home
-p Find me in app/views/static_pages/home.html.slim
+- provide(:title, "Home page")
+title == yield(:title)
+
+h1 App
+p This is the home page 
+p Active Record offers many pre-defined validation helpers that you can use directly inside your class definitions. These     helpers provide common validation rules. Every time a validation fails, an error message is added to the object's errors collection, and this message is associated with the attribute being validated.
